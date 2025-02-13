@@ -14,6 +14,11 @@ impl SailsHelloWorldService {
     pub fn do_something(&mut self) -> String {
         "Hello from SailsHelloWorld!".to_string()
     }
+
+    // Service's query
+    pub fn get_something(&self) -> String {
+        "Hello from SailsHelloWorld!".to_string()
+    }
 }
 
 pub struct SailsHelloWorldProgram(());

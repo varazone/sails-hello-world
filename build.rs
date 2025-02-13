@@ -19,5 +19,6 @@ fn main() {
 
     let mut idl_path = PathBuf::from(bin_path);
     idl_path.set_extension("idl");
-    sails_idl_gen::generate_idl_to_file::<sails_hello_world_app::SailsHelloWorldProgram>(idl_path).unwrap();
+    sails_idl_gen::generate_idl_to_file::<sails_hello_world_app::SailsHelloWorldProgram>(idl_path)
+        .unwrap();
 }
