@@ -1,6 +1,6 @@
 use sails_rs::{
     calls::*,
-    gtest::{calls::*, System},
+    gtest::{System, calls::*},
 };
 
 use sails_hello_world_client::traits::*;
