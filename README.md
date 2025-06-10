@@ -9,11 +9,11 @@ The program workspace includes the following packages:
 
 ## Dev Environment setup
 
-Install rust stable toolchain with `wasm32-unknown-unknown` toolchain and `rust-src` component, assuming you have `rustup` installed:
+Install rust stable toolchain with `wasm32v1-none` toolchain and `rust-src` component, assuming you have `rustup` installed:
 
 ```bash
 rustup default stable
-rustup target add wasm32-unknown-unknown
+rustup target add wasm32v1-none
 rustup component add rust-src
 ```
 
@@ -22,7 +22,7 @@ Alternatively you can skip manually run the above commands if you have `rust-too
 ```toml
 [toolchain]
 channel = "stable"
-targets = ["wasm32-unknown-unknown"]
+targets = ["wasm32v1-none"]
 components = ["rust-src"]
 profile = "default"
 ```
