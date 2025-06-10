@@ -39,7 +39,7 @@ Compile the program with the following command:
 cargo build --release
 ```
 
-After that, you will find the WASM binary in the `./target/wasm32-unknown-unknown/release` sub-folder:
+After that, you will find the WASM binary in the `./target/wasm32-gear/release` sub-folder:
 
 ```
 sails_hello_world.idl
